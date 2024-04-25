@@ -19,18 +19,26 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     // Declaring Array of String
-    String[] places = new String[]
-            {
-                    "Paris", "London", "NewYork", "Tokyo", "Rome", "Sydney", "Istanbul", "Dubai", "Moscow", "Beijing", "Quetta",
-                    "Cairo", "Rio", "Berlin", "Amsterdam", "LosAngeles", "Mumbai", "BuenosAires", "Barcelona", "Seoul", "Bangkok",
-                    "Vienna", "Toronto", "Madrid", "Singapore", "Venice", "Lisbon", "SanFrancisco", "Sargodha", "Sukkur", "Larkana",
-                    "Melbourne", "Montreal", "Shanghai", "CapeTown", "Stockholm", "Dublin", "Helsinki", "KualaLumpur", "Faisalabad",
-                    "Oslo", "Copenhagen", "Budapest", "Santiago", "Lima", "Riyadh", "Jakarta", "AbuDhabi", "Jhang", "Gujrat", "Kasur",
-                    "Delhi", "Nairobi", "Manila", "Auckland", "Doha", "Bogota", "Riyadh", "Oslo", "Nairobi", "Agra", "Pune", "Surat",
-                    "SanDiego", "Houston", "Miami", "Dallas", "Phoenix", "Denver", "Boston", "Atlanta", "Indore", "Delhi", "Lucknow",
-                    "WashingtonDC", "LasVegas", "Honolulu", "Vancouver", "Kolkata", "Okara", "Islamabad", "Multan", "Bangalore",
-                    "Mumbai", "Karachi", "Istanbul", "Tehran", "Baghdad", "Riyadh", "Kabul", "Dhaka", "Lahore", "Bangkok", "Jakarta"
-            };
+    String[] places = new String[]{
+            "Paris", "London", "Newyork", "Tokyo", "Rome", "Sydney", "Istanbul", "Dubai", "Moscow", "Beijing", "Quetta",
+            "Cairo", "Rio", "Berlin", "Amsterdam", "Losangeles", "Mumbai", "Barcelona", "Seoul", "Bangkok",
+            "Vienna", "Toronto", "Madrid", "Singapore", "Venice", "Lisbon", "SanFrancisco", "Sargodha", "Sukkur", "Larkana",
+            "Melbourne", "Montreal", "Shanghai", "Capetown", "Stockholm", "Dublin", "Helsinki", "Kualalumpur", "Faisalabad",
+            "Oslo", "Copenhagen", "Budapest", "Santiago", "Lima", "Riyadh", "Jakarta", "AbuDhabi", "Jhang", "Gujrat", "Kasur",
+            "Delhi", "Nairobi", "Manila", "Auckland", "Doha", "Bogota", "Riyadh", "Oslo", "Nairobi", "Agra", "Pune", "Surat",
+            "Sandiego", "Houston", "Miami", "Dallas", "Phoenix", "Denver", "Boston", "Atlanta", "Indore", "Delhi", "Lucknow",
+            "Washingtondc", "Lasvegas", "Honolulu", "Vancouver", "Kolkata", "Okara", "Islamabad", "Multan", "Bangalore",
+            "Mumbai", "Karachi", "Istanbul", "Tehran", "Baghdad", "Riyadh", "Kabul", "Dhaka", "Lahore", "Bangkok", "Jakarta",
+            "Sydney", "Auckland", "Moscow", "Cairo", "Dublin", "Berlin", "Hanoi", "Kuala lumpur", "Budapest", "Vienna",
+            "Stockholm", "Seoul", "Manila", "Bangkok", "Kolkata", "Mexico city", "Toronto", "Montreal", "Mailsi", "Austin",
+            "Vancouver", "Sydney", "Melbourne", "Wellington", "Auckland", "Dubai", "Istanbul", "Chicago", "Dallas",
+            "Athens", "Madrid", "Barcelona", "Milan", "Rome", "Oslo", "Helsinki", "Copenhagen", "Amsterdam", "Galle", "Jaffna",
+            "Warsaw", "Lisbon", "Moscow", "Sofia", "Khulna", "Sylhet", "Rangpur", "Comilla", "Barisal", "Colombo", "Kandy",
+            "Jakarta", "Bangkok", "Hanoi", "Manila", "KualaLumpur", "Singapore", "Seoul", "Tokyo", "Osaka", "Kyoto", "Hiroshima",
+            "Shanghai", "Shenzhen", "Tianjin", "Hongkong", "Macau", "Chengdu", "Wuhan", "Beijing", "Bristol", "Leeds", "Cardiff"
+    };
+
+
     String day;
     Random random;
 
